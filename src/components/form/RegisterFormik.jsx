@@ -122,6 +122,7 @@ const RegisterFormik = () => {
                   value="female"
                   checked={watchGender === "female"}
                   label="Female"
+                  aas
                 ></RadioFomik>
               </div>
             </div>
