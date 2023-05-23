@@ -79,7 +79,7 @@ const RegisterFormik = () => {
     >
       {(formik) => {
         const watchGender = formik.values.gender;
-        console.log("Rendering formik");
+        console.log("Rendering formik",formik.values.gender);
 
         return (
           <form
